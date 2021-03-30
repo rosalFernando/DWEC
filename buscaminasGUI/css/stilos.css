@@ -1,0 +1,83 @@
+
+header{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    background-color:#0099ff;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#logos_cabecera{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    }
+    
+#logos_cabecera img{
+    width: 3rem;
+    height: 3rem;
+    margin: 5px;
+    border-radius: 10px;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+    background-color:#0099ff;
+}
+footer ul{
+    list-style: none;
+}
+#miLogo{
+    height: 4rem;
+    width: 8rem;
+    align-self: center;
+    border-radius: 10px;
+}
+#tablero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+input {
+    font-size: 12px;
+    background-color: rgb(109, 83, 255);
+    border: 1px solid;
+}
+input:hover{
+    background-color: rgb(135, 113, 255);
+}
+span{
+    margin-left: 0.5rem;
+}
+#info{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    margin: 2rem;
+}
+div {
+    text-align-last: center;
+}

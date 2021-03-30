@@ -1,0 +1,67 @@
+header{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color:#0099ff;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    align-self: center;
+}
+#dibujaCanvas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+canvas{
+    margin: 20px;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+    background-color:#0099ff;
+}
+footer ul{
+    list-style: none;
+}
+#miLogo{
+    height: 4rem;
+    width: 8rem;
+    align-self: center;
+    border-radius: 10px;
+}
+#logos_cabecera{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    }
+    
+    #logos_cabecera img{
+        width: 4rem;
+        height: 4rem;
+        margin: 5px;
+        border-radius: 10px;
+    }

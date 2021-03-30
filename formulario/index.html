@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Author" content="Fernando del Rosal Cuesta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stilos.css">
+    <script src="./js/main.js"></script>
+    <script src="./js/validar.js"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+    
+    <noscript>
+        Habilita JavaScript.
+    </noscript>
+    <header>
+        <h1>Desarrollo web en entorno cliente.</h1>
+        <div id="logos_cabecera">
+            <img src="../../../assets/img/js-logo.png" alt="logo JavaScript">
+            <img src="../../../assets/img/jQuery-logo.png" alt="logo JQuery">
+            <img src="../../../assets/img/html-logo.png" alt="logo JQuery">
+            <img src="../../../assets/img/css-logo.png" alt="logo JQuery">
+        </div>
+    </header>
+    <main>
+        <h1>Formulario</h1>
+        <form action="">
+            <fieldset>
+                <legend>Obligatorio</legend>
+                <div><label>Texto: <input type="text" name="texto"></label><span></span></div>
+                <div><label>Condiciones<input type="checkbox" name="check"></label><span></span></div>
+                <div>
+                    <label><input type="radio" name="sexo" value="masculino">Masculino</label>
+                    <label><input type="radio" name="sexo" value="femenino">Femenino</label>
+                    <span></span>
+                </div>
+                <div><label>Seleccionado: <select name="select">
+                            <option value="">-----</option>
+                            <option value="value1">Value 1</option>
+                            <option value="value2">Value 2</option>
+                            <option value="value3">Value 3</option>
+                        </select></label>
+                    <span></span>
+                </div>
+                <div>
+                    <label>Fecha seleccionada: <input type="date" name="fechaObli"></label><span></span>
+                </div>
+            </fieldset>
+            <div>
+                <label>Numerico entero: <input type="text" name="numEntero"></label><span></span>
+            </div>
+            <div>
+                <label>Numerico decimal: <input type="text" name="numDecimal"></label><span></span>
+            </div>
+            <div>
+                <label>Correo electronico: <input type="text" name="correo"></label><span></span>
+            </div>
+            <div>
+                <label>URL: <input type="text" name="url"></label><span></span>
+            </div>
+            <div>
+                <label>Fecha: <input type="text" name="fecha"></label><span></span>
+            </div>
+            <div>
+                <label>DNI: <input type="text" name="dni"></label><span></span>
+            </div>
+            <div>
+                <label>Telefono: <input type="text" name="telefono"></label><span></span>
+            </div>
+            <div>
+                <label>Imagen: <input type="text" name="imagen"></label><span></span>
+            </div>
+            <div id="botones">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Eliminar">
+                <button>Rellenar</button>
+            </div>
+        </form>
+    </main>
+    
+    <footer>
+        <ul>
+            <li>Autor: Fernando del Rosal.</li>
+            <li>Modulo: Desarrollo Web Entorno Cliente</li>
+            <li>C.F.G.S Desarrollo Aplicaciones Web.</li>
+            <li>I.E.S Gran Capitan.</li>
+        </ul>
+        <img id="miLogo" src="../../../assets/icon/favico.png" alt="logo">
+    </footer>
+</body>
+
+</html>
